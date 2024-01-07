@@ -1,4 +1,50 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Merriweather;
+
+  background: #ffffff;
+}
+/* header css items */
+
+header {
+    
+    
+  }
+  .container {
+    width: 75%;
+    max-width: 1440px;
+    margin: auto;
+    text-align: center;
+    
+  }
+.banner {
+    display: flex;
+    align-items: center;
+  
+  
+}
+.banner-greeting {
+  
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.banner-heading {
+ 
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 95px; /* 131.944% */
+}
+.banner-img img {
+  width: 65%;
+  
+  
+
 }
