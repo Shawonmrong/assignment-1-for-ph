@@ -1,10 +1,9 @@
 * {
   margin: 0px;
   padding: 0px;
-  font-family: Merriweather;
+  font-family: 'Merriweather', serif;
 }
 /* header css items */
-
 .header {
   width: 100%;
   height: auto;
@@ -62,9 +61,12 @@
 
 .off-catagory {
   background-color: #fff;
-  width: auto;
-  height: 400px;
-  padding-top: 100px;
+  height: auto;
+  width: 1320px;
+  display: block;
+  margin: 10px auto;
+  position: relative;
+  
 }
 .off-option h1 {
   color: #f00;
@@ -93,29 +95,127 @@
 
   font-weight: 700;
 }
-.hny-img img {
+.off-option img{
+  width: 800px;
+  height: 500px;
+  border-radius: 16px;
+  background-size: cover;
+  background-repeat: no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 50px;
-  padding-left: 450px;
+  position: relative;
+  
 }
+
 /* section welcome css item */
 
-.welcome {
-  background-color: #fff;
-  width: auto;
+.welcome{
+  width: 1320px;
   height: 600px;
+  display: block;
+  margin: 10px auto;
+  display: block;
+  align-items: center;
+  justify-content: space-between;
+  background-image: url('../img/Vectorrr.png');
+  
+ 
+
+}
+.welcome-text h1{
+  color: #FFF;
+font-size: 64px;
+font-style: normal;
+font-weight: 900;
+line-height: 88px; /* 137.5% */
+letter-spacing: 7.04px;
+
+}
+.welcome-text p{
+  color: rgba(255, 255, 255, 0.80);
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+}
+.btn-join{
+  display: inline-block;
+    padding: 10px 20px;
+    background-color: #FFF; 
+    color: black; 
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 20px;
+    border-radius: 5px;
+
+}
+
+/* address place item css  */
+
+
+.address-item{
+
+  width: 1320px;
+  height: 400px;
+  display: block;
+  margin: 10px auto;
+  display: block;
+  align-items: center;
+  border-radius: 16px;
+  background: linear-gradient(120deg, rgba(255, 0, 0, 0.10) 60%, rgba(255, 0, 0, 0.00) 80%);
+  
+}
+.address-text{
+  text-align: center;
+  color: black;
+  display: block;
+  align-items: center;
+  padding-top: 200px;
+}
+/* coming soon items css */
+
+
+.coming-soon{
+  width: 1320px;
+  height: 400px;
+  background-color: #f00;
+  display: block;
+  margin: 10px auto;
+  display: block;
+  align-items: center;
+  border-radius: 16px;
+  padding-top: 200px;
+
+}
+.coming-soon-text{
+  text-align: left;
+  align-items: center;
+  display: block;
+}
+
+/* added section  */
+#hero {
+  width: 100%;
+  height: 60vh;
+  position: relative;
+  background: url("../img/Vectorrr.png") no-repeat;
+  background-size: cover;
+  padding: 0;
+}
+
+#hero .hero-content {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  text-align: center;
 }
-.welcome-text h1 {
-  color: #fff;
 
-  font-size: 64px;
-
-  font-weight: 900;
-
-  letter-spacing: 7.04px;
-}
