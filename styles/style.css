@@ -130,7 +130,7 @@
   background-position: bottom;
   background-size: cover;
   border-radius: 16px 16px 16px 16px;
-  padding-bottom: 30px;
+  
   
 }
 .welcome-item{
@@ -187,9 +187,9 @@ font-size: 64px;
 
 #address-item {
   width: 1320px;
-  height: 600px;
+  height: 500px;
   display: block;
-  margin: 10px auto;
+  margin: 50px auto;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -199,6 +199,7 @@ font-size: 64px;
     rgba(255, 0, 0, 0.1) 60%,
     rgba(214, 131, 131, 0) 80%
   );
+
 }
 .address-text {
   text-align: center;
